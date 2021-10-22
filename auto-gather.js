@@ -15,7 +15,7 @@ function uniqueListByKey(arr, key) {
 }
 
 async function getBattleHistory(player = '', data = {}) {
-    	const battleHistory = await fetch(`https://cache-api.splinterlands.com/battle/history?player=${player}`)
+  const battleHistory = await fetch(`https://cache-api.splinterlands.com/battle/history?player=${player}`)
 	//const battleHistory = await fetch(`https://api.splinterlands.com/battle/history?player=${player}`)
 	//const battleHistory = await fetch(`https://game-api.splinterlands.com/battle/history?player=${player}`)
 	//const battleHistory = await fetch(`https://api2.splinterlands.com/battle/history?player=${player}`)
